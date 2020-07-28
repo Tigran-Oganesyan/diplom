@@ -1,0 +1,46 @@
+@import url("./__item/__item.css");
+
+.cards__container {
+    padding-left:5px;
+    padding-right:5px;
+    max-width:1240px;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top:110px;
+    position: relative;
+}
+
+@media screen and (max-width: 1440px) {
+    .cards__container{
+        display:flex;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .cards__container{
+        margin-top:30px;
+        display:flex;
+        justify-content: space-between;
+    }
+   
+}
+
+
+@media screen and (max-width: 768px) {
+    .cards__container{
+        display:flex;
+        justify-content: space-evenly;
+    }
+
+}
+
+
+@media screen and (max-width: 425px) {
+    .cards__container{
+        display:flex;
+        justify-content: space-between;
+    }
+}

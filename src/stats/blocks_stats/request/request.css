@@ -1,0 +1,29 @@
+@import url("./__news/__news.css");
+@import url("./__path/__path.css");
+@import url("./__question/__question.css");
+
+.request {
+    padding-top: 40px;
+    padding-left:104px;
+    padding-bottom: 80px;
+}
+
+@media screen and (max-width: 1024px) {
+    .request {
+        padding-top:32px;
+        padding-left: 40px;
+        padding-bottom: 80px;
+    }  
+}
+
+@media screen and (max-width: 768px) {
+    .request {
+        padding-bottom: 40px;
+    }  
+}
+
+@media screen and (max-width: 425px) {
+    .request {
+        padding-top: 16px;
+    }  
+}

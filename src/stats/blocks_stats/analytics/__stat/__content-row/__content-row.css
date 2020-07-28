@@ -1,0 +1,10 @@
+.analytics__content-row {
+    display:flex;
+    margin-top: 48px;
+}
+
+@media screen and (max-width: 690px) {
+    .analytics__content-row {
+        margin-top:16px
+    }  
+}

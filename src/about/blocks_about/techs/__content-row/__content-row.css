@@ -1,0 +1,42 @@
+.techs__content-row {
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .techs__content-row{
+        width: 1024px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .techs__content-row {
+        flex-direction: column;
+        width: 750px;
+    }  
+}
+
+@media screen and (max-width: 425px) {
+    .techs__content-row {
+        width: 415px;
+    }  
+}
+
+
+@media screen and (max-width: 375px) {
+    .techs__content-row {
+        width: 365px;
+    }  
+}
+
+
+@media screen and (max-width: 320px) {
+    .techs__content-row {
+        width: 310px;
+    }  
+}
+

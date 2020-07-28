@@ -1,0 +1,21 @@
+@import url("./__graph-number/__graph-number.css");
+
+.analytics__graph {
+    background: #2F71E5;
+    width:60px; 
+    height:24px;
+    margin-left:50px;
+    display: flex;
+}
+
+@media screen and (max-width: 768px) {
+    .analytics__graph{
+        width:30px;
+    }  
+}
+
+@media screen and (max-width: 425px) {
+    .analytics__graph{
+        margin-left:30px;
+    }  
+}

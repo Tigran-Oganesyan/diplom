@@ -1,0 +1,25 @@
+.author__content-row {
+    margin-left:56px;
+    margin-top:56px;
+}
+
+@media screen and (max-width: 1440px) {
+    .author__content-row {
+        margin-left:56px;
+        margin-top:56px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .author__content-row {
+        margin-left:56px;
+        margin-top:0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .author__content-row{
+        margin: auto;
+        margin-top:24px;
+    }
+}
