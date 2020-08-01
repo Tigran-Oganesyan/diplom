@@ -1,0 +1,15 @@
+@import url("./__button-text/__button-text.css");
+
+.cards__button {
+    margin:auto;
+    margin-top:48px;
+    width:288px;
+    height:64px;
+    background-color: #FFFFFF;
+    border-radius: 80px;
+    display: flex;
+}
+
+.cards__button:hover {
+    opacity: 0.9;
+}

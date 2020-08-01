@@ -1,0 +1,15 @@
+@import url("./__container/__container.css");
+@import url("./__content-row/__content-row.css");
+@import url("./__title/__title.css");
+
+.techs {
+    padding-top: 80px;
+    padding-bottom: 85px;
+    background-color: #F5F6F7;
+    position: relative;
+    width: inherit;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+

@@ -1,0 +1,19 @@
+.cards__item-paragraph {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;    
+    color: #1A1B22;
+    margin-top:16px;
+    height: 110px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+}
+
+@media screen and (max-width: 1440px) {
+    .cards__item-paragraph{
+        margin-top: 8px;
+    }
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>NewAnalyzer</title>
+  <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css%>">
+</head>
+<body class="page">
+        <header class="header">
+            <div class="header__image-background">
+                <img class="header__image" src="<%=require('./images/georgia-de-lotz-UsJoNxLaNo-unsplash.jpg').default%>" alt="background-georgia"></div>
+            <p class="header__logo">NewsAnalyser</p>
+            <ul class="header__container">
+                <li class="header__content-row">
+                    <a class="header__link header__link_active" href="https://tigran-oganesyan.github.io/diplom/index.html">Главная</a>
+                    <div class="header__stroke"></div>
+                </li>
+                <li class="header__list-link"><a class="header__link" href="https://tigran-oganesyan.github.io/diplom/about.html">О проекте</a></li>
+            </ul>
+        </header>
+        <section class="search">
+            <div class="search__content-row">
+                <h1 class="search__title">Что в мире творится?</h1>
+                <p class="search__subtitle">Введите в поиске любую тему и узнайте, насколько популярной она была в новостях за прошедшую неделю.</p>
+            </div>
+            <form class="search__form">
+                <div class="search__input-rectangle">
+                    <input type="text" class="search__input" placeholder="Введите тему новости">
+                </div>
+                <button type="submit" class="search__submit">Искать</button>
+            </form>
+        </section>
+        <section class="cards">
+            <div class="cards__root">
+                <h2 class="cards__title">Результаты поиска</h2>
+                <a class="cards__link" href="https://tigran-oganesyan.github.io/diplom/stats.html">Посмотреть аналитику <img class="cards__vector" src="<%=require('./images/vector.svg').default%>" alt=""></a>
+                <div class="cards__container">
+                    <div class="cards__item">
+                        <img class="cards__image" src="<%=require('./images/card.jpg').default%>" alt="author">
+                        <div class="cards__content-row">
+                            <p class="cards__item-date">2 августа, 2019</p>
+                            <h2 class="cards__item-title">Национальное достояние – парки</h2>
+                            <div class="cards__item-paragraph">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</div>
+                            <p class="cards__item-link">Лента.ру</p>
+                        </div>
+                    </div>
+                    <div class="cards__item">
+                        <img class="cards__image" src="<%=require('./images/card.jpg').default%>" alt="">
+                        <div class="cards__content-row">
+                            <p class="cards__item-date">2 августа, 2019</p>
+                            <h2 class="cards__item-title">Национальное достояние – парки</h2>
+                            <div class="cards__item-paragraph">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</div>
+                            <p class="cards__item-link">Лента.ру</p>
+                        </div>
+                    </div>
+                    <div class="cards__item">
+                        <img class="cards__image" src="<%=require('./images/card.jpg').default%>" alt="">
+                        <div class="cards__content-row">
+                            <p class="cards__item-date">2 августа, 2019</p>
+                            <h2 class="cards__item-title">Национальное достояние – парки</h2>
+                            <div class="cards__item-paragraph">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</div>
+                            <p class="cards__item-link">Лента.ру</p>
+                        </div>
+                    </div>
+                    <div class="cards__item">
+                        <img class="cards__image" src="<%=require('./images/card.jpg').default%>" alt="">
+                        <div class="cards__content-row">
+                            <p class="cards__item-date">2 августа, 2019</p>
+                            <h2 class="cards__item-title">Национальное достояние – парки</h2>
+                            <div class="cards__item-paragraph">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</div>
+                            <p class="cards__item-link">Лента.ру</p>
+                        </div>
+                    </div>
+                    <div class="cards__item">
+                        <img class="cards__image" src="<%=require('./images/card.jpg').default%>" alt="">
+                        <div class="cards__content-row">
+                            <p class="cards__item-date">2 августа, 2019</p>
+                            <h2 class="cards__item-title">Национальное достояние – парки</h2>
+                            <div class="cards__item-paragraph">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</div>
+                            <p class="cards__item-link">Лента.ру</p>
+                        </div>
+                    </div>
+                    <div class="cards__item">
+                        <img class="cards__image" src="<%=require('./images/card.jpg').default%>" alt="">
+                        <div class="cards__content-row">
+                            <p class="cards__item-date">2 августа, 2019</p>
+                            <h2 class="cards__item-title">Национальное достояние – парки</h2>
+                            <div class="cards__item-paragraph">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</div>
+                            <p class="cards__item-link">Лента.ру</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards__button">
+                    <p class="cards__button-text">Показать ещё</p>
+                </div>
+            </div>
+            <div class="cards__error-container">
+                <img class="cards__error-image" src="<%=require('./images/not-found.svg').default%>" alt="">
+                <h2 class="cards__error-title">Ничего не найдено</h2>
+                <p class="cards__error-subtitle">К сожалению по вашему запросу ничего не найдено.</p>
+            </div>
+            <div class="cards__search-container">
+                <div class="cards__search-preloader"></div>
+                <p class="cards__search-description">Идет поиск новостей...</p>
+            </div>
+        </section>
+        <section class="author">
+            <div class="author__container">
+                <img class="author__image" src="<%=require('./images/author.jpg').default%>" alt="">
+                <div class="author__content-row">
+                    <h2 class="author__title">Об авторе</h2>
+                    <p class="author__paragraph">Меня зовут Оганесян Тигран. Занимаюсь веб-разработкой, владею HTML, CSS, JS, Webpack и GitHub.</p>
+                    <p class="author__paragraph">Я проходил обучение на ЯндексПрактикуме по курсу Front-End.</p>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <ul class="footer__linksContainer">
+                <li class="footer__link-list"><a class="footer__link" href="https://tigran-oganesyan.github.io/diplom/index.html">Главная</a></li>
+                <li class="footer__link-list"><a class="footer__link" href="https://tigran-oganesyan.github.io/diplom/about.html">О проекте</a></li>
+                <li class="footer__link-list"><a class="footer__link" href="https://praktikum.yandex.ru">Яндекс.Практикум</a></li>
+            </ul>
+            <ul class="footer__iconsContainer">
+                <li class="footer__icon-list"><a class="footer__link-icon" href="https://github.com/"><img class="footer__icon" src="<%=require('./images/github.svg').default%>" alt="GitHub"></a></li>
+                <li class="footer__icon-list"><a class="footer__link-icon" href="https://facebook.com/"><img class="footer__icon" src="<%=require('./images/facebook.svg').default%>" alt="Facebook"></a></li>
+            </ul>
+            <p class="footer__copyright">© 2019  Supersite</p>
+        </footer>
+        <script src="<%= htmlWebpackPlugin.files.chunks.index.entry %>"></script>
+</body>

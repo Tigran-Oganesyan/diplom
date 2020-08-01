@@ -1,0 +1,10 @@
+@import url("./__search-description/__search-description.css");
+@import url("./__search-preloader/__search-preloader.css");
+
+.cards__search-container {
+    margin:auto;
+    display:none;
+    justify-items: center;
+    flex-direction: column;    
+    max-width:340px;
+}

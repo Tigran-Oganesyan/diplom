@@ -1,0 +1,33 @@
+@import url("./__container/__container.css");
+
+.info {
+    padding-top:80px;
+    padding-bottom:94px;
+    padding-right:40px;
+}
+
+@media screen and (max-width: 1440px) {
+    .info {
+        padding-top: 80px;
+        padding-bottom:94px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .info {
+        padding-bottom:55px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .info {
+        padding-top:25px; ;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .info {
+        padding-bottom:30px;
+        padding-right:40px;   
+    }
+}
