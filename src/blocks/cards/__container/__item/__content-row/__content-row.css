@@ -1,0 +1,20 @@
+.cards__content-row {
+    margin:0 auto;
+    margin-top:20px;
+    margin-bottom: 24px;
+    width:90%;
+    position: relative;
+    margin-left: 24px;
+}
+
+@media screen and (max-width: 1440px) {
+    .cards__content-row{
+        margin-top: 14px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .cards__content-row{
+        margin-bottom: 14px;
+    }
+}

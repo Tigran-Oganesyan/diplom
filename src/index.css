@@ -1,0 +1,68 @@
+
+@import url("./blocks/header/header.css");
+@import url("./blocks/search/search.css");
+@import url("./blocks/author/author.css");
+@import url("./blocks/footer/footer.css");
+@import url("./blocks/cards/cards.css");
+@import url("./vendor/normalize.css");
+@import url("./vendor/fonts/fonts.css");
+@import url("./about/blocks_about/info/info.css");
+@import url("./about/blocks_about/swiper/swiper.css");
+@import url("./about/blocks_about/techs/techs.css");
+@import url("./stats/blocks_stats/analytics/analytics.css");
+@import url("./stats/blocks_stats/request/request.css");
+
+.page {
+    max-width:1440px;
+    margin:0 auto;
+    padding:0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;  
+}
+
+ol {
+    padding:0;
+    list-style: none;
+    margin:0;
+}
+
+ul {
+    padding:0;
+    list-style: none;
+    margin:0;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .page {
+        max-width: 1024px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .page {
+        max-width:768px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .page{
+        max-width:425px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .page {
+        max-width: 375px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .page {
+        max-width: 320px;
+    }
+}
