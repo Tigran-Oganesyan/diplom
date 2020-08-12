@@ -2,24 +2,19 @@
 @import url("./__content-row/__content-row.css");
 @import url("./__link/__link.css");
 @import url("./__title/__title.css");
-@import url("./-wrapper/-wrapper.css");
-@import url("./__vector/__vector.css");
+@import URL("./-wrapper/-wrapper.css");
+@import URL("./__vector/__vector.css");
 
 
 
 .swiper {
-    width: inherit;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
     padding-top:80px;
-    padding-bottom: 136px;
     background-color:#F5F6F7;
     position: relative;
     overflow: hidden;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .swiper {
         padding-bottom: 32px;
     }

@@ -3,4 +3,7 @@
 .swiper-wrapper {
     overflow: visible;
     position: initial;
+    display: inline-flex;
+    
+    
 }

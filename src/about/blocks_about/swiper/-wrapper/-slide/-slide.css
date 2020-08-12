@@ -1,23 +1,5 @@
-@import url("./-date/-date.css");
-@import url("./-paragraph/-paragraph.css");
-@import url("./-slide-container/-slide-container.css");
+@import URL("./-date/-date.css");
+@import URL("./-paragraph/-paragraph.css");
+@import URL("./-slide-container/-slide-container.css");
 
 
-.swiper-slide{
-    width: 400px;
-    height: 288px;
-    margin-right: 16px;
-}
-
-
-@media screen and (max-width: 768px) {
-    .swiper-slide{
-        height: 220px;
-    }
-}
-
-@media screen and (max-width: 425px) {
-    .swiper-slide{
-        height: 200px;
-    }
-}
