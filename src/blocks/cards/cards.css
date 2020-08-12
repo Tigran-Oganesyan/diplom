@@ -1,0 +1,24 @@
+@import url("./__container/__container.css");
+@import url("./__link/__link.css");
+@import url("./__title/__title.css");
+@import url("./__button/__button.css");
+@import url("./__error-container/__error-container.css");
+@import url("./__search-container/__search-container.css");
+@import url("./__vector/__vector.css");
+@import url("./__root/__root.css");
+
+
+.cards {
+    background-color: #F5F6F7;
+    position: relative;
+    padding-top:80px;
+    padding-bottom:80px;
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .cards{
+        padding-top: 80px;
+        padding-bottom: 40px;
+    }
+}

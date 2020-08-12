@@ -1,0 +1,12 @@
+.swiper-image {
+    width:64px;
+    height:64px;
+    border-radius: 1000px
+}
+
+@media screen and (max-width: 768px) {
+    .swiper-image {
+        width:48px;
+        height:48px;
+    }
+}

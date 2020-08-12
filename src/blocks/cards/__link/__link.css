@@ -1,0 +1,40 @@
+.cards__link {
+    position: absolute;
+    top:80px;
+    right:7%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 46px;
+    color: #1A1B22;
+}
+
+@media screen and (max-width: 1024px) {
+    .cards__link{
+        line-height: 34px;
+        top:40px
+    }
+}
+
+@media screen and (max-width: 764px) {
+    .cards__link{
+        position: initial;
+        display: block;
+        white-space: nowrap;
+        width:max-content;
+        margin:auto;
+        margin-top:16px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cards__link {
+        position: initial;
+        display: block;
+        width:max-content;
+        white-space: nowrap;
+        margin-left:12px;
+        margin-top:16px;
+    }
+}

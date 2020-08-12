@@ -1,0 +1,9 @@
+@import url("./-slide/-slide.css");
+
+.swiper-wrapper {
+    overflow: visible;
+    position: initial;
+    display: inline-flex;
+    
+    
+}

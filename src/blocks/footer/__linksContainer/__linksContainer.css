@@ -1,0 +1,18 @@
+@import url("./__link/__link.css");
+@import url("./__link-list/__link-list.css");
+
+.footer__linksContainer {
+    margin: 0;
+    margin:auto;
+    display:flex;
+    justify-content: space-between;
+    padding: 0;
+    width:fit-content;
+}
+
+@media screen and (max-width: 768px) {
+    .footer__linksContainer {
+        flex-direction: column;
+        margin:0;
+    }
+}

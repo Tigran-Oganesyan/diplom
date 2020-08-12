@@ -1,0 +1,8 @@
+@import URL("./-content-row/-content-row.css");
+@import URL("./-image/-image.css");
+
+.swiper-slide-container {
+    margin-top:16px;
+    display:flex;
+    margin-left:24px;
+}

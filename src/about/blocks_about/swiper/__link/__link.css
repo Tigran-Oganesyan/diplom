@@ -1,0 +1,41 @@
+.swiper__link {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    margin: auto 0;
+    color: #1A1B22;    
+    display: flex;
+    position: absolute;
+    top:95px;
+    right:110px;
+}
+
+@media screen and (max-width: 1440px) {
+    .swiper__link {
+        right:calc(110*100vw/1440);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .swiper__link {
+        position: static;
+        margin:auto
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .swiper__link-container{
+        width:288px;
+        height:56px;
+        border: 1px solid #1A1B22;
+        box-sizing: border-box;
+        border-radius: 80px;
+        text-align: center;
+        position: static;
+        display: flex;
+        margin:auto;
+        margin-top:48px;
+    }
+}

@@ -1,0 +1,11 @@
+.analytics__graph-number {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin:0;
+    margin:auto 0;
+    margin-left: 6px;
+}

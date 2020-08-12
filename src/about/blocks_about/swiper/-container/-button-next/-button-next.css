@@ -1,0 +1,21 @@
+.swiper-button-next {
+    position:absolute;
+    top:60%;
+    color:white;
+    width: 40px;
+    height: 40px;
+    border-radius:40px;
+    background-color: black;
+    right: 1.5%;
+}
+
+.swiper-button-prev:after, .swiper-button-next:after {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+@media screen and (max-width: 1023px) {
+    .swiper-button-next {
+        display: none;
+    }
+}
