@@ -1,8 +1,0 @@
-@import url("./-slide/-slide.css");
-
-.swiper-wrapper{
-    display: flex;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-}
